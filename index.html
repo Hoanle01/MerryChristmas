@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Merry Christmas</title>
+  <link rel="stylesheet" href="./styles.css" />
+  <link rel="stylesheet" href="path/to/icon-library.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/iconoir-icons/iconoir@main/css/iconoir.css" />
+</head>
+
+<body onload="initiate()">
+  <div class="banner">
+    <svg viewBox="0 0 960 300">
+      <symbol id="s-text">
+        <text text-anchor="middle" x="50%" y="80%">Merry Christmas My Love!
+          <rect x="0" y="0" width="100%" height="100%" fill="#111"/>
+          <text text-anchor="middle" x="50%" y="80%" fill="white" font-size="24" font-family="Arial">Merry Christmas My Love</text>
+          <image href="link_to_your_heart_image.png" x="50%" y="85%" width="30" height="30" />
+       </text>
+      </symbol>
+
+      <g class = "g-ants">
+        <use xlink:href="#s-text" class="text-copy"></use>
+        <use xlink:href="#s-text" class="text-copy"></use>
+        <use xlink:href="#s-text" class="text-copy"></use>
+        <use xlink:href="#s-text" class="text-copy"></use>
+        <use xlink:href="#s-text" class="text-copy"></use>
+      </g>
+    </svg>
+  </div>
+  <div class="tree">
+    <div class="t-tree">
+      <span>
+        <i class="iconoir-star-solid"></i>
+      </span>
+    </div>
+    <div class="l-tree"></div>
+    <div class="r-tree"></div>
+    <div class="tree-root">
+      <div class="palette"></div>
+      <div>
+        <span style="--i:0;"></span>
+        <span style="--i:1;"></span>
+        <span style="--i:2;"></span>
+        <span style="--i:3;"></span>
+      </div>
+    </div>
+  </div>
+  </section>
+</body>
+<script src="./index.js"></script>
+
+</html>
